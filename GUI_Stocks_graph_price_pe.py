@@ -193,13 +193,13 @@ show_graph_ma_button.grid(row=2, column=1, pady=5, padx=5, sticky="nsew")
 
 # Legend periods
 legend_label = tk.Label(graphs_frame, text="Valid Periods:\nday(d)\nmonth(mo)\nyears(y)\nmaximum(max)\nyear to date(ytd)\n")
-legend_label.grid(row=3, column=0, pady=5, padx=5, sticky="nsew")
+legend_label.grid(row=3, column=0, pady=5, padx=5, sticky="ne")
 
 # Legend intervals
 legend_label = tk.Label(graphs_frame, text="Valid Intervals:\n1, 2, 5, 15, 30, 60, 90\nminutes(m)\nhour(h)\nday(d)\nweek(wk)\nmonth(mo)"
                                            "\nnote #1: 1m data is only for available for last 7 days"
                                            "\nnote #2: data interval <1d for the last 60 days")
-legend_label.grid(row=3, column=1, pady=5, padx=5, sticky="nsew")
+legend_label.grid(row=3, column=1, pady=5, padx=5, sticky="ne")
 ########################################### analysis frame
 
 
