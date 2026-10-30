@@ -1,0 +1,5 @@
+yfinance
+matplotlib
+pandas
+requests
+openpyxl  # pandas.read_excel in GUI_with_dropdown_menu.py
